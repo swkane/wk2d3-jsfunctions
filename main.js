@@ -107,15 +107,15 @@ console.log(getLength("sam kane"));
 // Then, write and example of using the function.
 
 function greaterThan(x,y) {
-  if (x > y) {
+  if (x < y) {
     return true;
   } else {
     return false;
   }
 }
 
-console.log(greaterThan(4,4.1));
-console.log(greaterThan(4.1,4));
+console.log(greaterThan(4,6));
+console.log(greaterThan(6,4));
 
 // 8.
 // Write a function called `greet` that takes a
